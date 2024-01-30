@@ -1,0 +1,18 @@
+uuid: 2dede815-eff8-42f3-a37b-9a8e15cee446
+langcode: en
+status: false
+dependencies:
+  theme:
+    - mpssc
+id: mpssc_menu_menu_footer_menu
+theme: mpssc
+region: ''
+weight: -26
+provider: null
+plugin: 'system_menu_block:menu-footer-menu'
+settings:
+  id: broken
+  label: 'Quick Links'
+  label_display: visible
+  provider: core
+visibility: {  }

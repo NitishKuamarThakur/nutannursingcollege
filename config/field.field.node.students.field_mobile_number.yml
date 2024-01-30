@@ -1,0 +1,19 @@
+uuid: c49ad66b-3291-4764-9dfc-aa0ef1bd21c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mobile_number
+    - node.type.students
+id: node.students.field_mobile_number
+field_name: field_mobile_number
+entity_type: node
+bundle: students
+label: 'Mobile Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

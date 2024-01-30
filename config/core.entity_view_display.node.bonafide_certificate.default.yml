@@ -1,0 +1,108 @@
+uuid: 2840e550-2a1a-4da0-b3f9-5669a57d1b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bonafide_certificate.field_bonafide_certificate
+    - field.field.node.bonafide_certificate.field_certificate_reference_date
+    - field.field.node.bonafide_certificate.field_certificate_reference_no_
+    - field.field.node.bonafide_certificate.field_course_
+    - field.field.node.bonafide_certificate.field_father_s_name_
+    - field.field.node.bonafide_certificate.field_image_
+    - field.field.node.bonafide_certificate.field_mobile_number_
+    - field.field.node.bonafide_certificate.field_roll_number_
+    - field.field.node.bonafide_certificate.field_session_
+    - node.type.bonafide_certificate
+  module:
+    - datetime
+    - file
+    - image
+    - user
+id: node.bonafide_certificate.default
+targetEntityType: node
+bundle: bonafide_certificate
+mode: default
+content:
+  field_bonafide_certificate:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_certificate_reference_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_certificate_reference_no_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_course_:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_father_s_name_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_image_:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_mobile_number_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_roll_number_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_session_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true

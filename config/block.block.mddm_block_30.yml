@@ -1,0 +1,40 @@
+uuid: 8ea84a86-eb52-45ff-b041-6a95dc729c43
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:04a5a421-96b9-432e-9dbc-ca45afb7edc1'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - ncn
+id: mddm_block_30
+theme: ncn
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:04a5a421-96b9-432e-9dbc-ca45afb7edc1'
+settings:
+  id: 'block_content:04a5a421-96b9-432e-9dbc-ca45afb7edc1'
+  label: 'Only Registered Candidates Sign In'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+  request_path:
+    id: request_path
+    negate: false
+    pages: |-
+      /user/register
+      /apply-online

@@ -1,0 +1,18 @@
+uuid: 0d48cc7f-3358-4a3c-9259-7105067d98c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: 'Placement Cell'
+type: placement_cell
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

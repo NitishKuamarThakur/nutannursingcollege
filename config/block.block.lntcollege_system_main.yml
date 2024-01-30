@@ -1,0 +1,20 @@
+uuid: ef03f843-ce67-476c-b324-2a61cfa410b7
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - lntcollege
+id: lntcollege_system_main
+theme: lntcollege
+region: ''
+weight: -22
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 2c255538-bc26-43f0-8241-455279651978
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - rlsy
+id: rlsy_system_main
+theme: rlsy
+region: ''
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

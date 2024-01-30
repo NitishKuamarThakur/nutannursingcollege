@@ -1,0 +1,25 @@
+uuid: 56058dc3-1773-4912-97a4-630dc4d737a4
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:abc8f191-8d86-4421-97a1-198505509f3c'
+  module:
+    - block_content
+  theme:
+    - rmls
+id: rmls_block_11
+theme: rmls
+region: ''
+weight: -20
+provider: null
+plugin: 'block_content:abc8f191-8d86-4421-97a1-198505509f3c'
+settings:
+  id: 'block_content:abc8f191-8d86-4421-97a1-198505509f3c'
+  label: 'Stay connected'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

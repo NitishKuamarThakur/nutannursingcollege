@@ -1,0 +1,14 @@
+uuid: 75ab4dce-8d1f-4715-91f0-6e21652ef195
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.college_admin
+  module:
+    - user
+id: user_add_role_action.college_admin
+label: 'Add the college admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: college_admin

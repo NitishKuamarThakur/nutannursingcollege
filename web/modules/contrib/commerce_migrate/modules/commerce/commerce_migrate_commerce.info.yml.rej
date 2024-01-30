@@ -1,0 +1,9 @@
+--- modules/commerce/commerce_migrate_commerce.info.yml
++++ modules/commerce/commerce_migrate_commerce.info.yml
+@@ -7,3 +7,6 @@ dependencies:
+   - commerce:commerce
+   - drupal:migrate_drupal
+   - commerce_migrate:commerce_migrate
++
++test_dependencies:
++  - commerce_shipping:commerce_shipping

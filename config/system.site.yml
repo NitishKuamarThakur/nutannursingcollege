@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: fed35dd7-fdcf-41a0-8890-03c5aac73ea1
+name: 'Nutan college of nursing, Sitamarhi'
+mail: developer.rajan2@gmail.com
+slogan: 'Nutan college of nursing, Sitamarhi'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

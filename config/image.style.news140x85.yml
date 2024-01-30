@@ -1,0 +1,15 @@
+uuid: 253f7bd0-b102-44a5-be94-edbae1388cb4
+langcode: en
+status: true
+dependencies: {  }
+name: news140x85
+label: news140x85
+effects:
+  dc5c802d-1dfb-4b46-b242-3669fba5655d:
+    uuid: dc5c802d-1dfb-4b46-b242-3669fba5655d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 140
+      height: 85
+      anchor: center-center

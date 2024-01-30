@@ -1,0 +1,30 @@
+uuid: 28253bbd-fd4a-4e8b-89fd-7cb2ca445d17
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d0a6594a-9356-4736-a6d3-620305fa754f'
+  module:
+    - block_content
+    - system
+  theme:
+    - mpssc
+id: mpssc_block_16
+theme: mpssc
+region: ''
+weight: -27
+provider: null
+plugin: 'block_content:d0a6594a-9356-4736-a6d3-620305fa754f'
+settings:
+  id: 'block_content:d0a6594a-9356-4736-a6d3-620305fa754f'
+  label: 'Welcome to Subhawanti Institute of Management & Technology'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

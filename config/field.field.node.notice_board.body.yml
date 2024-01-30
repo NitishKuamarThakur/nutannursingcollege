@@ -1,0 +1,23 @@
+uuid: a5306497-4f08-4bcf-aaae-d1fa6438f1ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.notice_board
+  module:
+    - text
+id: node.notice_board.body
+field_name: body
+entity_type: node
+bundle: notice_board
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

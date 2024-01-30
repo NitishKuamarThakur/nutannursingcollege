@@ -1,0 +1,21 @@
+uuid: 12aef447-a33b-4716-a7a1-195efd32c7b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_admission
+label: 'Content - Admission'
+type: 'canonical_entities:node'
+pattern: 'admission/[node:title]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      admission: admission
+selection_logic: and
+weight: 0
+relationships: {  }

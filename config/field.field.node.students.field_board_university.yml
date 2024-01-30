@@ -1,0 +1,19 @@
+uuid: 766c66db-f7e4-4a71-bb6c-462b3647fe28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_board_university
+    - node.type.students
+id: node.students.field_board_university
+field_name: field_board_university
+entity_type: node
+bundle: students
+label: Board
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

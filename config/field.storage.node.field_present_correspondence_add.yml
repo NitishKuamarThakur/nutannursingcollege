@@ -1,0 +1,23 @@
+uuid: 2b773a5f-3be8-4c7c-bd4c-2ec0f719a1d2
+langcode: und
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_present_correspondence_add
+field_name: field_present_correspondence_add
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

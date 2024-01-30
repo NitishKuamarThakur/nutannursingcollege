@@ -1,0 +1,31 @@
+uuid: 85cbc8cf-cf03-4115-9872-6d2ad6a90d85
+langcode: und
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - options
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_pm
+field_name: field_pm
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: AM
+      label: AM
+    -
+      value: PM
+      label: PM
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

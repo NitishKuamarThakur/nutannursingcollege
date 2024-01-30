@@ -1,0 +1,22 @@
+uuid: ffd21496-bf1f-4d80-8509-dde947c4bb8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ncn
+_core:
+  default_config_hash: V1Mlo2Hn8-a2rQfmDLx93irwyumHZxSgrEs2w0tMwA8
+id: ncn_help
+theme: ncn
+region: content
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: d6c202d9-0a6b-486e-8c9a-1c94376dbf94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaching_non_teaching
+    - node.type.faculty_member
+  module:
+    - options
+id: node.faculty_member.field_teaching_non_teaching
+field_name: field_teaching_non_teaching
+entity_type: node
+bundle: faculty_member
+label: Teaching/Non-teaching
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

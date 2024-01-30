@@ -1,0 +1,30 @@
+uuid: 40af0acf-e1a4-4b4f-b953-17b83eb29a30
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:266fbfb5-f2c5-4cce-9962-bb5e3fb763a2'
+  module:
+    - block_content
+    - system
+  theme:
+    - ncn
+id: mddm_block_32
+theme: ncn
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:266fbfb5-f2c5-4cce-9962-bb5e3fb763a2'
+settings:
+  id: 'block_content:266fbfb5-f2c5-4cce-9962-bb5e3fb763a2'
+  label: '<none>'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/students/*'

@@ -1,0 +1,12 @@
+name: Instamojo Payment Gateway
+type: module
+description: Integrates Instamojo Gateway with Drupal Commerce.
+core_version_requirement: ^8 || ^9
+package: 'Payment Gateway (Instamojo)'
+dependencies:
+  - commerce:commerce_payment
+
+# Information added by Drupal.org packaging script on 2021-10-24
+version: '8.x-1.0-rc2'
+project: 'commerce_instamojo'
+datestamp: 1635093837

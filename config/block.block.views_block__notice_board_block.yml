@@ -1,0 +1,33 @@
+uuid: 31d4e601-2a07-4e19-b04e-3a0dbeedc390
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.notice_board
+  module:
+    - block_classes
+    - system
+    - views
+  theme:
+    - ncn
+third_party_settings:
+  block_classes:
+    title_class: block-title
+id: views_block__notice_board_block
+theme: ncn
+region: notice
+weight: 0
+provider: null
+plugin: 'views_block:notice_board-block'
+settings:
+  id: 'views_block:notice_board-block'
+  label: 'News & Events'
+  label_display: visible
+  provider: views
+  views_label: 'News & Events'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

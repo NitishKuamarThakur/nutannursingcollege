@@ -1,0 +1,21 @@
+uuid: ab0fb762-c0f6-47c9-979d-592b09036091
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_students
+label: 'Content - Students'
+type: 'canonical_entities:node'
+pattern: 'students/[node:title]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      students: students
+selection_logic: and
+weight: 0
+relationships: {  }

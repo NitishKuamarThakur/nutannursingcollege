@@ -1,0 +1,15 @@
+uuid: b43dc751-ae4b-4b2f-bee5-e7967ec6fcf2
+langcode: en
+status: true
+dependencies: {  }
+name: slideshow_1140x395
+label: slideshow_1140x395
+effects:
+  3b5ae753-804d-4e7c-a8de-71aafa33fa45:
+    uuid: 3b5ae753-804d-4e7c-a8de-71aafa33fa45
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 1365
+      height: 400
+      anchor: center-center

@@ -1,0 +1,19 @@
+uuid: 1373d4ec-d51b-486c-9637-980f302fd52b
+langcode: en
+status: true
+dependencies: {  }
+id: instamojo
+label: instamojo
+weight: null
+plugin: manual
+configuration:
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  instructions:
+    value: ''
+    format: plain_text
+conditions: {  }
+conditionOperator: AND

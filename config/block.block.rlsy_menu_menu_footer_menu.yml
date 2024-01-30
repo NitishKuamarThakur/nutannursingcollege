@@ -1,0 +1,18 @@
+uuid: bc26293e-6f4d-4d44-be5e-f7440e7d6b20
+langcode: en
+status: false
+dependencies:
+  theme:
+    - rlsy
+id: rlsy_menu_menu_footer_menu
+theme: rlsy
+region: ''
+weight: -13
+provider: null
+plugin: 'system_menu_block:menu-footer-menu'
+settings:
+  id: broken
+  label: 'Quick Links'
+  label_display: visible
+  provider: core
+visibility: {  }

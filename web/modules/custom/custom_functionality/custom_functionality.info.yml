@@ -1,0 +1,5 @@
+name: Custom Functionality
+type: module
+description: Used to manage custom functionality.
+core_version_requirement: ^8 || ^9
+package: custom

@@ -1,0 +1,31 @@
+uuid: ec3170db-d563-456e-9377-acc0cf4c0b7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.principal_message.body
+    - field.field.node.principal_message.field_upload_image
+    - node.type.principal_message
+  module:
+    - text
+    - user
+id: node.principal_message.default
+targetEntityType: node
+bundle: principal_message
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_upload_image: true

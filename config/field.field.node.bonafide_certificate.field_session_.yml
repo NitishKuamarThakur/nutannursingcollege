@@ -1,0 +1,19 @@
+uuid: 7d919ae0-28e5-4569-b319-ae088a80c55a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session_
+    - node.type.bonafide_certificate
+id: node.bonafide_certificate.field_session_
+field_name: field_session_
+entity_type: node
+bundle: bonafide_certificate
+label: 'Session '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

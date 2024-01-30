@@ -1,0 +1,32 @@
+uuid: a69cbdae-d9db-46aa-8759-4ef24ee63d90
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - lntcollege
+id: lntcollege_menu_menu_courses_menu
+theme: lntcollege
+region: ''
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-courses-menu'
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: |-
+      /courses/*
+      /node/81
+      /undergraduate
+      /science
+      /arts
+      /commerce-0
+      /post-graduate
+      /vocational

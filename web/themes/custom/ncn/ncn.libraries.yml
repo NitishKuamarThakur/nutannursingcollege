@@ -1,0 +1,10 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/ncn.js: {}
+    js/jquery.touchSwipe.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once

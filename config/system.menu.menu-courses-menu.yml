@@ -1,0 +1,8 @@
+uuid: 07fd0859-bb67-4b63-b571-c3666d14cde0
+langcode: en
+status: true
+dependencies: {  }
+id: menu-courses-menu
+label: Courses
+description: ''
+locked: false

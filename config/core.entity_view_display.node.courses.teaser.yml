@@ -1,0 +1,41 @@
+uuid: eb09605d-9188-4974-bdd1-95b65494022a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.courses.body
+    - field.field.node.courses.field_duration
+    - field.field.node.courses.field_semester_fee
+    - field.field.node.courses.field_short_description
+    - field.field.node.courses.field_total_fee
+    - field.field.node.courses.field_upload_image
+    - node.type.courses
+  module:
+    - text
+    - user
+id: node.courses.teaser
+targetEntityType: node
+bundle: courses
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_duration: true
+  field_semester_fee: true
+  field_short_description: true
+  field_total_fee: true
+  field_upload_image: true

@@ -1,0 +1,19 @@
+uuid: f488a17b-f5a5-46d8-a1da-f63c4de8c52a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_department
+    - node.type.faculty_member
+id: node.faculty_member.field_department
+field_name: field_department
+entity_type: node
+bundle: faculty_member
+label: Department
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

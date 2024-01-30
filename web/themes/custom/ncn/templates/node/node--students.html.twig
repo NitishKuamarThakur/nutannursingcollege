@@ -1,0 +1,293 @@
+{#
+/**
+ * @file
+ * Theme override to display a node.
+ *
+ * Available variables:
+ * - node: The node entity with limited access to object properties and methods.
+ *   Only method names starting with "get", "has", or "is" and a few common
+ *   methods such as "id", "label", and "bundle" are available. For example:
+ *   - node.getCreatedTime() will return the node creation timestamp.
+ *   - node.hasField('field_example') returns TRUE if the node bundle includes
+ *     field_example. (This does not indicate the presence of a value in this
+ *     field.)
+ *   - node.isPublished() will return whether the node is published or not.
+ *   Calling other methods, such as node.delete(), will result in an exception.
+ *   See \Drupal\node\Entity\Node for a full list of public properties and
+ *   methods for the node object.
+ * - label: (optional) The title of the node.
+ * - content: All node items. Use {{ content }} to print them all,
+ *   or print a subset such as {{ content.field_example }}. Use
+ *   {{ content|without('field_example') }} to temporarily suppress the printing
+ *   of a given child element.
+ * - author_picture: The node author user entity, rendered using the "compact"
+ *   view mode.
+ * - metadata: Metadata for this node.
+ * - date: (optional) Themed creation date field.
+ * - author_name: (optional) Themed author name field.
+ * - url: Direct URL of the current node.
+ * - display_submitted: Whether submission information should be displayed.
+ * - attributes: HTML attributes for the containing element.
+ *   The attributes.class element may contain one or more of the following
+ *   classes:
+ *   - node: The current template type (also known as a "theming hook").
+ *   - node--type-[type]: The current node type. For example, if the node is an
+ *     "Article" it would result in "node--type-article". Note that the machine
+ *     name will often be in a short form of the human readable label.
+ *   - node--view-mode-[view_mode]: The View Mode of the node; for example, a
+ *     teaser would result in: "node--view-mode-teaser", and
+ *     full: "node--view-mode-full".
+ *   The following are controlled through the node publishing options.
+ *   - node--promoted: Appears on nodes promoted to the front page.
+ *   - node--sticky: Appears on nodes ordered above other non-sticky nodes in
+ *     teaser listings.
+ *   - node--unpublished: Appears on unpublished nodes visible only to site
+ *     admins.
+ * - title_attributes: Same as attributes, except applied to the main title
+ *   tag that appears in the template.
+ * - content_attributes: Same as attributes, except applied to the main
+ *   content tag that appears in the template.
+ * - author_attributes: Same as attributes, except applied to the author of
+ *   the node tag that appears in the template.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ * - view_mode: View mode; for example, "teaser" or "full".
+ * - teaser: Flag for the teaser state. Will be true if view_mode is 'teaser'.
+ * - page: Flag for the full page state. Will be true if view_mode is 'full'.
+ * - readmore: Flag for more state. Will be true if the teaser content of the
+ *   node cannot hold the main body content.
+ * - logged_in: Flag for authenticated user status. Will be true when the
+ *   current user is a logged-in member.
+ * - is_admin: Flag for admin user status. Will be true when the current user
+ *   is an administrator.
+ *
+ * @see template_preprocess_node()
+ *
+ */
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+{{ attach_library('classy/node') }}
+<article{{ attributes.addClass(classes) }}>
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    {% if content.field_payment_id.0['#context'].value %}
+      <div class="print_btn">
+        <p onclick="print_form_student();" class="download_now">Download</p>
+      </div>
+    {% endif %}
+
+    <div id="students_details_wrapper">
+      <div id="students_details">
+        <style>
+          #students_details {
+            width: 800px;
+            margin: auto;
+            position: relative;
+          }
+
+          #students_details .students_details_list {
+            overflow: hidden;
+            margin: 10px 0px;
+                      padding-left: 10px;
+              padding-right: 10px;
+          }
+
+          #students_details .student_details_row span {
+            display: inline-block;
+            vertical-align: middle;
+          }
+
+          #students_details .student_details_row .left {
+            margin-right: 20px;
+            width: 250px;
+          }
+          #students_details .student_details_row.first .left {
+            width: 100px;
+          }
+          #students_details .student_details_row.first.form .left {
+              width: 150px !important;
+          }
+
+          #students_details .admission_left {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 40px;
+          }
+
+          #students_details .student_details_row_image {
+            display: inline-block;
+            float: right;
+            position: absolute;
+            right: 0;
+            vertical-align: middle;
+            width: 150px;
+          }
+
+          #students_details  .photo {
+            text-align: center;
+            width: 100%;
+          }
+
+          .student_print_form  .photo .image {
+            width:150px;
+            height:185px;
+          }
+          .student_print_form .signature .image{
+            width:150px;
+            height:45px;
+          }
+        </style>
+      
+        <div class="logo">
+          <img src="/themes/custom/ncn/logo.svg" width="750" height="130"/>
+        </div>
+        
+        <div id="application_for_admission" class="students_details_list">
+          <h3 style="color: #000;">Application form for admission in ANM or GNM Course(2018-19)</h3> 
+          <div class="admission_left">
+            <div class="student_details_row first form">
+              <span class="left">Application Form No.</span>
+              <span class="right">{{ node.field_roll_number.0.value }}</span>
+            </div>
+            <div class="student_details_row first form">
+              <span class="left">Date of Submission</span>
+              <span class="right">{{ node.getCreatedTime()|date("d F, Y") }}</span>
+            </div>   
+          </div>
+          
+          <div class="student_details_row_image">
+            <div class="photo"><img loading="lazy" src="{{ content.field_upload_student_image.0['#item']|file_url }}" width="150" class="img-fluid"></div>
+            <div class="photo signature"><img loading="lazy" src="{{ content.field_student_signature.0['#item']|file_url }}" width="150" height="46" class="img-fluid"></div>
+          </div>
+        </div>
+
+        <div id="personal_details" class="students_details_list">
+          <h3 style="margin-top:5px; margin-bottom:5px; color: #000;">Personal Details</h3>
+          <div class="student_details_row">
+            <span class="left">Name of Student</span>
+            <span class="right">{{ node.getTitle() }}</span>
+          </div>
+          <div class="student_details_row">
+            <span class="left">Father/Husband name</span>
+            <span class="right">{{ node.field_father_s_name.0.value }}</span>
+          </div>
+      
+          <div class="student_details_row">
+            <span class="left">Mother name</span>
+            <span class="right">{{ node.field_mother_s_name.0.value }}</span>
+          </div>
+          <div class="student_details_row">
+            <span class="left">Date of Birth</span>
+            <span class="right">{{ node.field_date_of_birth.0.value|date("d-m-Y") }}</span>
+          </div>
+          <div class="student_details_row">
+            <span class="left">Gender</span>
+            <span class="right">{{ node.field_gender.0.value }}</span>
+          </div>
+          <div class="student_details_row">
+            <span class="left">Category</span>
+            <span class="right">{{ node.field_category.0.value }}</span>
+          </div>
+      
+          <div class="student_details_row">
+            <span class="left">Mobile No.</span>
+            <span class="right">{{ node.field_mobile_number.0.value }}</span>
+          </div>
+      
+          <div class="student_details_row">
+            <span class="left">Marital Status</span>
+            <span class="right">{{ node.field_marital_status.0.value }}</span>
+          </div>
+          {% if content.field_physically_challenged_ph.0['#context'].value %}
+            <div class="student_details_row">
+              <span class="left">Physically Challenged(PH)</span>
+              <span class="right">{{ node.field_physically_challenged_ph.0.value }}</span>
+            </div>
+          {% endif %}      
+      
+          <div class="student_details_row">
+            <span class="left">Email id</span>
+            <span class="right">{{ node.field_email_id.0.value }}</span>
+          </div>
+      
+          <div class="student_details_row">
+            <span class="left">Permanent Address</span>
+            <span class="right">{{ node.field_permanent_address.0.value }}</span>
+          </div>
+          <div class="student_details_row">
+            <span class="left">Present/Correspondence Address</span>
+            <span class="right">{{ node.field_present_correspondence_add.0.value }}</span>
+          </div>
+        </div>
+
+
+        <div id="education_qualification" class="students_details_list">
+          <h3 style="margin-top:5px; margin-bottom:5px; color: #000;">Intermediate Details</h3>
+      
+          <div class="student_details_row">
+            <span class="left">Name of College</span>
+            <span class="right">{{ node.field_name_of_college.0.value }}</span>
+          </div>
+      
+          <div class="student_details_row">
+            <span class="left">Board/University</span>
+            <span class="right">{{ node.field_board_university.0.value }}</span>
+          </div>
+      
+          <div class="student_details_row">
+            <span class="left">Year of Passing</span>
+            <span class="right">{{ node.field_year_of_passing_grad.0.value }}</span>
+          </div>
+      
+          <div class="student_details_row">
+            <span class="left">Percentage of Marks</span>
+            <span class="right">{{ node.field_percentage_of_aggregate_ma.0.value }}</span>
+          </div>
+      
+          <div class="student_details_row">
+            <span class="left">Faculty</span>
+            <span class="right">{{ node.field_faculty.0.value }}</span>
+          </div>
+        </div>
+
+        <div id="payment_details" class="students_details_list">
+          <h3 style="margin-top:5px; margin-bottom:5px; color: #000;">Payment Details</h3>
+          <div class="student_details_row">
+            <span class="left">Payment Status</span>
+            <span class="right">
+              {% if node.field_payment_received.0.value %}
+                {% if node.field_payment_received.0.value == 1 %}
+                  <h3 style='color:green; margin:0px;'>Your payment has been received.</h3>
+                {% endif %}
+              {% endif %}
+            </span>
+          </div>
+          {% if node.field_payment_id.0.value %}
+            <div class="student_details_row">
+              <span class="left">Payment ID</span>
+              <span class="right"><h3>{{ node.field_payment_id.0.value }}</h3></span>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    {% if content.field_payment_id.0['#context'].value %}
+      <div class="print_btn">
+        <p onclick="print_form_student();" class="download_now">Download</p>
+      </div>
+    {% endif %}
+  </div>
+
+</article>

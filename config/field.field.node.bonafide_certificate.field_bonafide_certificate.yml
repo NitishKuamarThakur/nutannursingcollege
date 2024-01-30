@@ -1,0 +1,27 @@
+uuid: 31a531f9-bf96-4db8-b100-011190c6f015
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bonafide_certificate
+    - node.type.bonafide_certificate
+  module:
+    - file
+id: node.bonafide_certificate.field_bonafide_certificate
+field_name: field_bonafide_certificate
+entity_type: node
+bundle: bonafide_certificate
+label: 'Bonafide Certificate'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'txt pdf jpeg jpg png gif doc docx csv xlsx'
+  max_filesize: ''
+  description_field: false
+field_type: file

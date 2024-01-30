@@ -1,0 +1,30 @@
+uuid: 98a8e933-8f8b-45d7-968a-6a73c891d1f5
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d0a6594a-9356-4736-a6d3-620305fa754f'
+  module:
+    - block_content
+    - system
+  theme:
+    - lntcollege
+id: lntcollege_block_16
+theme: lntcollege
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:d0a6594a-9356-4736-a6d3-620305fa754f'
+settings:
+  id: 'block_content:d0a6594a-9356-4736-a6d3-620305fa754f'
+  label: 'Welcome to Subhawanti Institute of Management & Technology'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

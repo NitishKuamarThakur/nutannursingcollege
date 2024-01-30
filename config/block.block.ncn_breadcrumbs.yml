@@ -1,0 +1,26 @@
+uuid: 616b8d3d-b56f-4628-b41f-14323fec91c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ncn
+_core:
+  default_config_hash: 56qnrtwoaTbAHXqrKlZQ2LvmoHsZqtBCMjg8fPNAfnM
+id: ncn_breadcrumbs
+theme: ncn
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/students/*'

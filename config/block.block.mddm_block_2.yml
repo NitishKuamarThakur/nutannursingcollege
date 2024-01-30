@@ -1,0 +1,25 @@
+uuid: 7e090eaa-14c4-408c-a9fe-431299352d85
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:480d74e5-c108-45f0-96ba-19dfa086c15c'
+  module:
+    - block_content
+  theme:
+    - ncn
+id: mddm_block_2
+theme: ncn
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:480d74e5-c108-45f0-96ba-19dfa086c15c'
+settings:
+  id: 'block_content:480d74e5-c108-45f0-96ba-19dfa086c15c'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

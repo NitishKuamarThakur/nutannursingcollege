@@ -1,0 +1,25 @@
+uuid: 2efa4017-237d-4ac5-908d-226d8c605d33
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:e6f6f927-1e5f-4d91-bc55-af1ba64f74ef'
+  module:
+    - block_content
+  theme:
+    - rmls
+id: rmls_block_4
+theme: rmls
+region: ''
+weight: -21
+provider: null
+plugin: 'block_content:e6f6f927-1e5f-4d91-bc55-af1ba64f74ef'
+settings:
+  id: 'block_content:e6f6f927-1e5f-4d91-bc55-af1ba64f74ef'
+  label: 'Contact Us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

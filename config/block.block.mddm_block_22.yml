@@ -1,0 +1,30 @@
+uuid: 2c5acb60-c2f7-46e4-901b-1fc7db25a391
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d5591259-8474-4bdf-9311-118ce35f8dd1'
+  module:
+    - block_content
+    - system
+  theme:
+    - ncn
+id: mddm_block_22
+theme: ncn
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:d5591259-8474-4bdf-9311-118ce35f8dd1'
+settings:
+  id: 'block_content:d5591259-8474-4bdf-9311-118ce35f8dd1'
+  label: Publication(Articles)
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/105

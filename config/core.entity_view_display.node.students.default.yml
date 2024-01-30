@@ -1,0 +1,249 @@
+uuid: 4a1f9f11-916e-4258-badd-ea3d7280f6ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.students.field_board_university
+    - field.field.node.students.field_category
+    - field.field.node.students.field_date_of_birth
+    - field.field.node.students.field_email_id
+    - field.field.node.students.field_faculty
+    - field.field.node.students.field_father_s_name
+    - field.field.node.students.field_final_roll_number
+    - field.field.node.students.field_gender
+    - field.field.node.students.field_legal_but_not_payment
+    - field.field.node.students.field_marital_status
+    - field.field.node.students.field_mobile_number
+    - field.field.node.students.field_mother_s_name
+    - field.field.node.students.field_name_of_college
+    - field.field.node.students.field_payment_id
+    - field.field.node.students.field_payment_received
+    - field.field.node.students.field_percentage_of_aggregate_ma
+    - field.field.node.students.field_permanent_address
+    - field.field.node.students.field_present_correspondence_add
+    - field.field.node.students.field_program_code
+    - field.field.node.students.field_roll_number
+    - field.field.node.students.field_session
+    - field.field.node.students.field_student_image
+    - field.field.node.students.field_student_signature
+    - field.field.node.students.field_upload_student_image
+    - field.field.node.students.field_year_of_passing_grad
+    - node.type.students
+  module:
+    - datetime
+    - image
+    - options
+    - user
+id: node.students.default
+targetEntityType: node
+bundle: students
+mode: default
+content:
+  field_board_university:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 39
+    region: content
+  field_category:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_date_of_birth:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_email_id:
+    type: email_mailto
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_faculty:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 44
+    region: content
+  field_father_s_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_final_roll_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 42
+    region: content
+  field_gender:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_legal_but_not_payment:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 43
+    region: content
+  field_marital_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_mobile_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_mother_s_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_name_of_college:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 38
+    region: content
+  field_payment_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 37
+    region: content
+  field_payment_received:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 36
+    region: content
+  field_percentage_of_aggregate_ma:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 41
+    region: content
+  field_permanent_address:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_present_correspondence_add:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_program_code:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_roll_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_session:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_student_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 45
+    region: content
+  field_student_signature:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_upload_student_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_year_of_passing_grad:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 40
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true

@@ -1,0 +1,25 @@
+uuid: 8310711f-4571-435d-9ba6-9b1617c12392
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d6d557fb-3fd9-4823-9d79-310b90917edf'
+  module:
+    - block_content
+  theme:
+    - rmls
+id: rmls_block_13
+theme: rmls
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:d6d557fb-3fd9-4823-9d79-310b90917edf'
+settings:
+  id: 'block_content:d6d557fb-3fd9-4823-9d79-310b90917edf'
+  label: 'Find us by map'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

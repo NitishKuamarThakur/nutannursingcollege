@@ -1,0 +1,32 @@
+uuid: 973d9e82-672f-485e-a51c-f0e95b227bf8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7aac2829-6936-47ee-8d7a-7b1bef99cd9d'
+  module:
+    - block_content
+    - system
+  theme:
+    - ncn
+id: mddm_block_34
+theme: ncn
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:7aac2829-6936-47ee-8d7a-7b1bef99cd9d'
+settings:
+  id: 'block_content:7aac2829-6936-47ee-8d7a-7b1bef99cd9d'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: |-
+      /course/anm
+      /course/gnm

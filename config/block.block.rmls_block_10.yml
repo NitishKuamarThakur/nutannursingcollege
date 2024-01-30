@@ -1,0 +1,25 @@
+uuid: b1ecf7e2-8a04-481f-9ae8-5e662159510a
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:b0f67661-6403-4698-be4a-666815ca1c3a'
+  module:
+    - block_content
+  theme:
+    - rmls
+id: rmls_block_10
+theme: rmls
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:b0f67661-6403-4698-be4a-666815ca1c3a'
+settings:
+  id: 'block_content:b0f67661-6403-4698-be4a-666815ca1c3a'
+  label: '<none>'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

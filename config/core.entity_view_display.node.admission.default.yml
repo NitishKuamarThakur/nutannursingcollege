@@ -1,0 +1,334 @@
+uuid: 7bea4de9-b7bf-40e1-967c-680c4550aac3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.admission.field_12_board_university
+    - field.field.node.admission.field_12_percentage_of_aggregate
+    - field.field.node.admission.field_12_roll_number
+    - field.field.node.admission.field_12_school_college
+    - field.field.node.admission.field_12_year_of_passing
+    - field.field.node.admission.field_12th_mark_sheet
+    - field.field.node.admission.field_aadhar
+    - field.field.node.admission.field_aadhar_no
+    - field.field.node.admission.field_board_university
+    - field.field.node.admission.field_category
+    - field.field.node.admission.field_date_of_birth
+    - field.field.node.admission.field_email_id
+    - field.field.node.admission.field_father_s_name
+    - field.field.node.admission.field_gender
+    - field.field.node.admission.field_mark_sheet
+    - field.field.node.admission.field_mobile_number
+    - field.field.node.admission.field_mother_s_name
+    - field.field.node.admission.field_name_of_college
+    - field.field.node.admission.field_percentage_of_aggregate_ma
+    - field.field.node.admission.field_program_code
+    - field.field.node.admission.field_roll_number
+    - field.field.node.admission.field_student_signature
+    - field.field.node.admission.field_upload_student_image
+    - field.field.node.admission.field_year_of_passing_grad
+    - node.type.admission
+  module:
+    - datetime
+    - field_group
+    - image
+    - options
+    - user
+third_party_settings:
+  field_group:
+    group_academic_qualification:
+      children:
+        - group_general_information
+        - group_10th
+        - group_12th
+      label: 'Academic Qualification'
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: 'group-academic-qualification field-group-tabs'
+        show_empty_fields: false
+        id: ''
+        direction: vertical
+        width_breakpoint: 640
+    group_general_information:
+      children:
+        - field_father_s_name
+        - field_mother_s_name
+        - field_date_of_birth
+        - field_category
+        - field_gender
+        - field_mobile_number
+        - field_email_id
+        - field_aadhar
+        - field_upload_student_image
+        - field_student_signature
+        - field_program_code
+        - field_aadhar_no
+      label: 'General information'
+      parent_name: group_academic_qualification
+      region: content
+      weight: 26
+      format_type: tab
+      format_settings:
+        classes: 'group-general-information field-group-tab'
+        show_empty_fields: false
+        id: ''
+        formatter: open
+        description: ''
+    group_10th:
+      children:
+        - field_name_of_college
+        - field_board_university
+        - field_roll_number
+        - field_year_of_passing_grad
+        - field_percentage_of_aggregate_ma
+        - field_mark_sheet
+      label: Matric/10th
+      parent_name: group_academic_qualification
+      region: content
+      weight: 27
+      format_type: tab
+      format_settings:
+        classes: 'group-10th field-group-tab'
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: 'Academic Qualification of 10th/Martic.'
+    group_12th:
+      children:
+        - field_12th_mark_sheet
+        - field_12_school_college
+        - field_12_board_university
+        - field_12_roll_number
+        - field_12_year_of_passing
+        - field_12_percentage_of_aggregate
+      label: Intermediate/12th
+      parent_name: group_academic_qualification
+      region: content
+      weight: 28
+      format_type: tab
+      format_settings:
+        classes: 'group-12th field-group-tab'
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: 'Academic Qualification of Intermediate/12th.'
+id: node.admission.default
+targetEntityType: node
+bundle: admission
+mode: default
+content:
+  field_12_board_university:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_12_percentage_of_aggregate:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_12_roll_number:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_12_school_college:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_12_year_of_passing:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_12th_mark_sheet:
+    type: image
+    label: inline
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_aadhar:
+    type: image
+    label: inline
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 36
+    region: content
+  field_aadhar_no:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 35
+    region: content
+  field_board_university:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 31
+    region: content
+  field_category:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 30
+    region: content
+  field_date_of_birth:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: d_m_y
+    third_party_settings: {  }
+    weight: 29
+    region: content
+  field_email_id:
+    type: email_mailto
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 33
+    region: content
+  field_father_s_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_gender:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 31
+    region: content
+  field_mark_sheet:
+    type: image
+    label: inline
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 29
+    region: content
+  field_mobile_number:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 32
+    region: content
+  field_mother_s_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 28
+    region: content
+  field_name_of_college:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 30
+    region: content
+  field_percentage_of_aggregate_ma:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 35
+    region: content
+  field_program_code:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 34
+    region: content
+  field_roll_number:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 32
+    region: content
+  field_student_signature:
+    type: image
+    label: inline
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 38
+    region: content
+  field_upload_student_image:
+    type: image
+    label: inline
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 37
+    region: content
+  field_year_of_passing_grad:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 33
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true

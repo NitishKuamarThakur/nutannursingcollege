@@ -1,0 +1,41 @@
+// Bootstrap variables (overrides).
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px,
+) !default;
+// override default bootstrap colors for accessibility
+//$white: #fff !default;
+//$black: #000 !default;
+//$gray-700: #495057 !default;
+
+$blue: #0c477f !default;
+
+//$cyan: #006170 !default;
+//$pink: #e21181 !default;
+//$green: #008a00 !default;
+
+//$breadcrumb-divider-color: $gray-700 !default;
+//$breadcrumb-active-color: $gray-700 !default;
+
+//$navbar-light-color: rgba($black, .6) !default;
+//$navbar-dark-color: rgba($white, .6) !default;
+
+$form-text-margin-top: 0 !default;
+$legend-font-size: 1rem !default;
+$table-cell-padding-x: .75rem !default;
+
+$navbar-nav-link-padding-x: 20px !default;
+$navbar-nav-link-padding-y: 20px !default;
+
+$font-family-base: 'OpenSans' !default;
+$nav-link-font-weight: bold !default;
+$nav-link-font-size: 13px !default;
+$navbar-light-color: #fff !default;
+$navbar-light-active-color: #fff !default;
+$navbar-light-hover-color: #fff !default;
+$body-color: #868686 !default;
+$font-size-base: 0.813rem !default;

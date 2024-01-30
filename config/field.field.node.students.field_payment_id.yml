@@ -1,0 +1,19 @@
+uuid: 83c4e092-9601-4f4b-b393-4f41c15cacca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_payment_id
+    - node.type.students
+id: node.students.field_payment_id
+field_name: field_payment_id
+entity_type: node
+bundle: students
+label: 'Payment ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

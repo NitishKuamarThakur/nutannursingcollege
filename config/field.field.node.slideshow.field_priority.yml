@@ -1,0 +1,21 @@
+uuid: ca532437-e6a4-45f6-b9b8-db68e0a73576
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_priority
+    - node.type.slideshow
+  module:
+    - options
+id: node.slideshow.field_priority
+field_name: field_priority
+entity_type: node
+bundle: slideshow
+label: weight
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

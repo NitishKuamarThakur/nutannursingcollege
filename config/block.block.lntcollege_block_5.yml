@@ -1,0 +1,30 @@
+uuid: 2438ecce-e20b-49c9-957d-c42301905cf6
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:028ce274-ee75-4283-8eb4-e71121471e17'
+  module:
+    - block_content
+    - system
+  theme:
+    - lntcollege
+id: lntcollege_block_5
+theme: lntcollege
+region: ''
+weight: -23
+provider: null
+plugin: 'block_content:028ce274-ee75-4283-8eb4-e71121471e17'
+settings:
+  id: 'block_content:028ce274-ee75-4283-8eb4-e71121471e17'
+  label: 'Message From Principal'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

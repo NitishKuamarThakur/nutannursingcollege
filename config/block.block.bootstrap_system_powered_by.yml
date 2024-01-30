@@ -1,0 +1,20 @@
+uuid: 576f49ff-1315-4ec1-964b-fcb7480f56dc
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap
+id: bootstrap_system_powered_by
+theme: bootstrap
+region: ''
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

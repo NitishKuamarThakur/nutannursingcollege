@@ -1,0 +1,26 @@
+uuid: 4f34af17-f794-4db7-a68d-4c988946cec3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ncn
+_core:
+  default_config_hash: MrWtw7tyBpksN2BKB3VIx8kSgJxxHikR1LOcPMk-op4
+id: ncn_page_title
+theme: ncn
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "<front>\r\n/students/*"

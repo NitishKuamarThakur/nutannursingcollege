@@ -1,0 +1,18 @@
+uuid: 33c63f35-b510-4782-b37f-53bb8bc098f2
+langcode: en
+status: false
+dependencies:
+  theme:
+    - lntcollege
+id: lntcollege_menu_menu_header_top_menu
+theme: lntcollege
+region: ''
+weight: -23
+provider: null
+plugin: 'system_menu_block:menu-header-top-menu'
+settings:
+  id: broken
+  label: '<none>'
+  label_display: '0'
+  provider: core
+visibility: {  }

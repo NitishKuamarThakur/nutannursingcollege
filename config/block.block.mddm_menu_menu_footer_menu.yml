@@ -1,0 +1,29 @@
+uuid: b1c55dda-41a0-4370-a5dd-9c69dcf28677
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-footer-menu
+  module:
+    - block_classes
+    - system
+  theme:
+    - ncn
+third_party_settings:
+  block_classes:
+    title_class: block-title
+id: mddm_menu_menu_footer_menu
+theme: ncn
+region: footer_col_2
+weight: -34
+provider: null
+plugin: 'system_menu_block:menu-footer-menu'
+settings:
+  id: broken
+  label: 'Quick Links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

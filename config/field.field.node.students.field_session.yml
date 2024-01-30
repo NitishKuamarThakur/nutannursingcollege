@@ -1,0 +1,21 @@
+uuid: e08c91aa-57af-473a-8ae0-df2041e0c96e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session
+    - node.type.students
+id: node.students.field_session
+field_name: field_session
+entity_type: node
+bundle: students
+label: Session
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 2018-19
+default_value_callback: ''
+settings: {  }
+field_type: string

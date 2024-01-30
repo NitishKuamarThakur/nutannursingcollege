@@ -1,0 +1,16 @@
+<?php
+
+use Drupal\node\NodeInterface;
+
+/**
+ * @file
+ * Used to customise custom_functionality features.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function custom_functionality_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'custom_functionality/custom_functionality';
+}
+

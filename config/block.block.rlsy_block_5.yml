@@ -1,0 +1,30 @@
+uuid: 9dc8b03b-203a-4eb4-a545-6d345c38d813
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:028ce274-ee75-4283-8eb4-e71121471e17'
+  module:
+    - block_content
+    - system
+  theme:
+    - rlsy
+id: rlsy_block_5
+theme: rlsy
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:028ce274-ee75-4283-8eb4-e71121471e17'
+settings:
+  id: 'block_content:028ce274-ee75-4283-8eb4-e71121471e17'
+  label: 'Message From Principal'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,19 @@
+uuid: ff8ae7d5-fd84-4249-817b-1804da91fdc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_designation
+    - node.type.faculty_member
+id: node.faculty_member.field_designation
+field_name: field_designation
+entity_type: node
+bundle: faculty_member
+label: Designation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

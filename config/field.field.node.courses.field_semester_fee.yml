@@ -1,0 +1,23 @@
+uuid: 4d941d50-3def-4e5d-b04e-42cda2f93db0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_semester_fee
+    - node.type.courses
+id: node.courses.field_semester_fee
+field_name: field_semester_fee
+entity_type: node
+bundle: courses
+label: 'Semester Fee'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

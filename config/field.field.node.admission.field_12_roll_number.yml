@@ -1,0 +1,19 @@
+uuid: 9ed1f661-ce6b-4afc-9f95-5cc4039b4838
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_12_roll_number
+    - node.type.admission
+id: node.admission.field_12_roll_number
+field_name: field_12_roll_number
+entity_type: node
+bundle: admission
+label: 'Roll Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

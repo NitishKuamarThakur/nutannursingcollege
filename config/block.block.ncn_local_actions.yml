@@ -1,0 +1,20 @@
+uuid: 29913269-67a3-4dbb-b750-b482eb74726d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ncn
+_core:
+  default_config_hash: 6wo5WQvzYBfZKg-KMStVYEyN4ECJMJp5YVeYKOCUGCg
+id: ncn_local_actions
+theme: ncn
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

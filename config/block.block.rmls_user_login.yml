@@ -1,0 +1,25 @@
+uuid: 83499dd2-d1b7-4bb3-933d-d4a11d8c797a
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - rmls
+id: rmls_user_login
+theme: rmls
+region: ''
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Faculty Login'
+  label_display: visible
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

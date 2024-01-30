@@ -1,0 +1,27 @@
+uuid: 22db6ddb-ae5b-4ef4-9fa2-a64a1465a650
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_upload_document
+    - node.type.notice_board
+  module:
+    - file
+id: node.notice_board.field_upload_document
+field_name: field_upload_document
+entity_type: node
+bundle: notice_board
+label: 'upload document'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'txt pdf doc'
+  max_filesize: ''
+  description_field: false
+field_type: file

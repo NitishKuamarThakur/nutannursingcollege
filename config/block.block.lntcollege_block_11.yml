@@ -1,0 +1,25 @@
+uuid: c1e431a7-6cac-4cd3-8b90-d24095e6d822
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:abc8f191-8d86-4421-97a1-198505509f3c'
+  module:
+    - block_content
+  theme:
+    - lntcollege
+id: lntcollege_block_11
+theme: lntcollege
+region: ''
+weight: -20
+provider: null
+plugin: 'block_content:abc8f191-8d86-4421-97a1-198505509f3c'
+settings:
+  id: 'block_content:abc8f191-8d86-4421-97a1-198505509f3c'
+  label: 'Stay connected'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

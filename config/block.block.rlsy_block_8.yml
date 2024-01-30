@@ -1,0 +1,30 @@
+uuid: f9bd12a2-022d-4b40-8173-f28158e31fa7
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:a2606b3b-ee25-41da-8c48-7dc91a554ab5'
+  module:
+    - block_content
+    - system
+  theme:
+    - rlsy
+id: rlsy_block_8
+theme: rlsy
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:a2606b3b-ee25-41da-8c48-7dc91a554ab5'
+settings:
+  id: 'block_content:a2606b3b-ee25-41da-8c48-7dc91a554ab5'
+  label: 'Contact Information'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/2

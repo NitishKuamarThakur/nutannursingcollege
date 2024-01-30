@@ -1,0 +1,18 @@
+uuid: e3b34873-7001-450f-b2a4-d36604d35434
+langcode: en
+status: false
+dependencies:
+  theme:
+    - lntcollege
+id: lntcollege_menu_menu_footer_menu
+theme: lntcollege
+region: ''
+weight: -19
+provider: null
+plugin: 'system_menu_block:menu-footer-menu'
+settings:
+  id: broken
+  label: 'Quick Links'
+  label_display: visible
+  provider: core
+visibility: {  }

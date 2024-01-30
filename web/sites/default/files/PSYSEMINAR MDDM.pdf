@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" prefix="fb: http://www.facebook.com/2008/fbml content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://nutancollegeofnursing-7.local.com/sites/default/files/ncn_logo.png" type="image/png" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="http://nutancollegeofnursing-7.local.com/" />
+<link rel="shortlink" href="http://nutancollegeofnursing-7.local.com/" />
+<meta name="dcterms.title" content="Nutan college of nursing, Sitamarhi" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="http://nutancollegeofnursing-7.local.com/" />
+  <title>Page not found | Nutan college of nursing, Sitamarhi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <style>
+@import url("http://nutancollegeofnursing-7.local.com/modules/system/system.base.css?rpri9e");
+</style>
+<style>
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/views_slideshow/views_slideshow.css?rpri9e");
+</style>
+<style>
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/date/date_repeat_field/date_repeat_field.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/modules/field/theme/field.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/modules/node/node.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/extlink/css/extlink.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/views/css/views.css?rpri9e");
+</style>
+<style>
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/colorbox/styles/default/colorbox_style.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/ctools/css/ctools.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/custom/generate_roll/css/generate_roll.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/views_slideshow/views_slideshow_controls_text.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/modules/responsive_menus/styles/meanMenu/meanmenu.min.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/libraries/superfish/css/superfish.css?rpri9e");
+</style>
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/7.x-3.x/drupal-bootstrap.css" media="all" />
+<style>
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/themes/mddm/css/style.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/themes/mddm/css/theme.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/themes/mddm/css/superfish-menu.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/themes/mddm/css/tablet.css?rpri9e");
+@import url("http://nutancollegeofnursing-7.local.com/sites/all/themes/mddm/css/mobile.css?rpri9e");
+</style>
+<link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" media="all" />
+  <script src="http://nutancollegeofnursing-7.local.com/sites/all/libraries/respondjs/respond.min.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/jquery_update/replace/jquery/2.2/jquery.min.js?v=2.2.4"></script>
+<script src="http://nutancollegeofnursing-7.local.com/misc/jquery-extend-3.4.0.js?v=2.2.4"></script>
+<script src="http://nutancollegeofnursing-7.local.com/misc/jquery-html-prefilter-3.5.0-backport.js?v=2.2.4"></script>
+<script src="http://nutancollegeofnursing-7.local.com/misc/jquery.once.js?v=1.2"></script>
+<script src="http://nutancollegeofnursing-7.local.com/misc/drupal.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/jquery_update/js/jquery_browser.js?v=0.0.1"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/views_slideshow/js/views_slideshow.js?v=1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/js/bootstrap.js"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/libraries/colorbox/jquery.colorbox-min.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/colorbox/js/colorbox.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/colorbox/styles/default/colorbox_style.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/custom_search/js/custom_search.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/libraries/jquery.cycle/jquery.cycle.all.min.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/responsive_menus/styles/meanMenu/jquery.meanmenu.min.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/responsive_menus/styles/meanMenu/responsive_menus_mean_menu.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/google_analytics/googleanalytics.js?rpri9e"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-123152989-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("set", "page", "/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer);ga("send", "pageview");</script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/extlink/js/extlink.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/fb_likebox/fb_likebox.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/libraries/superfish/supposition.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/libraries/superfish/superfish.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/libraries/superfish/supersubs.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/superfish/superfish.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/themes/mddm/js/simple.js?rpri9e"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"mddm","theme_token":"GLALpPQAm1uvdK5VfBwjGByXIlNtNQfYoWtCGXgiE-Y","js":{"sites\/all\/modules\/addthis\/addthis.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/libraries\/respondjs\/respond.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/2.2\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.5\/dist\/js\/bootstrap.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.min.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/modules\/responsive_menus\/styles\/meanMenu\/jquery.meanmenu.min.js":1,"sites\/all\/modules\/responsive_menus\/styles\/meanMenu\/responsive_menus_mean_menu.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/extlink\/js\/extlink.js":1,"sites\/all\/modules\/fb_likebox\/fb_likebox.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/mddm\/js\/simple.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/extlink\/css\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/generate_roll\/css\/generate_roll.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/modules\/responsive_menus\/styles\/meanMenu\/meanmenu.min.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.5\/dist\/css\/bootstrap.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.css":1,"sites\/all\/themes\/mddm\/css\/style.css":1,"sites\/all\/themes\/mddm\/css\/theme.css":1,"sites\/all\/themes\/mddm\/css\/superfish-menu.css":1,"sites\/all\/themes\/mddm\/css\/tablet.css":1,"sites\/all\/themes\/mddm\/css\/mobile.css":1,"https:\/\/use.fontawesome.com\/releases\/v5.1.1\/css\/all.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","file_public_path":"\/sites\/default\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"store-modal-style":{"modalSize":{"type":"fixed","width":450,"height":500,"addWidth":0,"addHeight":0,"contentRight":0,"contentBottom":0},"modalOptions":{"opacity":0.8,"background-color":"#4c4c4c"},"throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 class=\u0022img-responsive\u0022 src=\u0022http:\/\/nutancollegeofnursing-7.local.com\/sites\/all\/modules\/ctools\/images\/throbber.gif\u0022 alt=\u0022 \u0022 title=\u0022 \u0022 \/\u003E","animation":"fadeIn"},"custom_search":{"form_target":"_self","solr":0},"viewsSlideshow":{"gallery-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"gallery-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_gallery-block_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"gallery-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"responsive_menus":[{"selectors":"#block-superfish-1","container":"body","trigger_txt":"\u003Cspan \/\u003E\u003Cspan \/\u003E\u003Cspan \/\u003E","close_txt":"X","close_size":"18px","position":"right","media_size":"767","show_children":"1","expand_children":"1","expand_txt":"+","contract_txt":"-","remove_attrs":"1","responsive_menus_style":"mean_menu"}],"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast"},"plugins":{"supposition":true,"supersubs":true}}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false},"fb_likebox_app_id":"","fb_likebox_language":"en_EN","bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":0,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58f8e4a8ceaa9b80"></script> 
+</head>
+<body class="html not-front not-logged-in no-sidebars page-sites page-sites-default page-sites-default-files page-sites-default-files-psyseminar-mddmpdf" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="whole_header_area">
+<header id="navbar" role="banner">
+    <div class="container">
+        <div class="navbar-header col-sm-9">
+                        <a class="logo navbar-btn pull-left" href="/" title="Nutan College Of Nursing"> <img src="http://nutancollegeofnursing-7.local.com/sites/default/files/nutan_logo.png" alt="Nutan College Of Nursing" /> </a>
+                        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        </div>
+        <div id="header_right" class="col-sm-3">             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+    </div>
+</header>
+<div id="menu_area" class="navbar-collapse collapse">
+    <div class="container">
+        <nav role="navigation">  <div class="region region-menu-area">
+    <section id="block-superfish-1" class="block block-superfish clearfix">
+
+      
+  <ul  id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-9 sf-parent-items-5 sf-single-items-4"><li id="menu-443-1" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/home" class="sf-depth-1">Home</a></li><li id="menu-444-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-2 sf-parent-children-1 sf-single-children-1 menuparent"><a href="/about-us" class="sf-depth-1 menuparent">About us</a><ul><li id="menu-894-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/message-secretary" class="sf-depth-2">About Founder</a></li><li id="menu-936-1" class="last even sf-item-2 sf-depth-2 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href=" void(0);" title="" class="sf-depth-2 menuparent">Facilities</a><ul><li id="menu-950-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/clinically-experience" class="sf-depth-3">Clinically Experience</a></li><li id="menu-951-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/transportation" class="sf-depth-3">Transportation</a></li><li id="menu-952-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/scholarship" class="sf-depth-3">Scholarship</a></li><li id="menu-1506-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/educational-loan" class="sf-depth-3">Educational Loan</a></li><li id="menu-953-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/sports" class="sf-depth-3">Sports</a></li><li id="menu-1507-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/hostel" class="sf-depth-3">Hostel</a></li><li id="menu-451-1" class="last odd sf-item-7 sf-depth-3 sf-no-children"><a href="/library" class="sf-depth-3">Library</a></li></ul></li></ul></li><li id="menu-459-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-3 sf-parent-children-2 sf-single-children-1 menuparent"><a href=" void(0);" title="" class="sf-depth-1 menuparent">Courses</a><ul><li id="menu-896-1" class="first odd sf-item-1 sf-depth-2"><a href="/course/anm" title="" class="sf-depth-2">ANM</a></li><li id="menu-897-1" class="middle even sf-item-2 sf-depth-2"><a href="/course/gnm" title="" class="sf-depth-2">GNM</a></li><li id="menu-1508-1" class="last odd sf-item-3 sf-depth-2 sf-no-children"><a href="/course/bscnursing" title="" class="sf-depth-2">B.SC(NURSING)</a></li></ul></li><li id="menu-1736-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-3 sf-parent-children-3 sf-single-children-0 menuparent"><a href=" void(0);" title="" class="sf-depth-1 menuparent">STUDENTS</a><ul><li id="menu-1737-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href=" void(0);" title="" class="sf-depth-2 menuparent">ANM</a><ul><li id="menu-1740-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="http://www.nutancollegeofnursing.in/sites/default/files/doc/ANM_2018-20.pdf" title="" class="sf-depth-3">2018-20</a></li><li id="menu-1741-1" class="last even sf-item-2 sf-depth-3 sf-no-children"><a href="http://www.nutancollegeofnursing.in/sites/default/files/doc/ANM_2019-21.pdf" title="" class="sf-depth-3">2019-21</a></li></ul></li><li id="menu-1738-1" class="middle even sf-item-2 sf-depth-2 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href=" void(0);" title="" class="sf-depth-2 menuparent">GNM</a><ul><li id="menu-1742-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="http://www.nutancollegeofnursing.in/sites/default/files/doc/GNM_2018-21.pdf" title="" class="sf-depth-3">2018-21</a></li><li id="menu-1743-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="http://www.nutancollegeofnursing.in/sites/default/files/doc/GNM_2019-22.pdf" title="" class="sf-depth-3">2019-22</a></li><li id="menu-1744-1" class="last odd sf-item-3 sf-depth-3 sf-no-children"><a href="http://www.nutancollegeofnursing.in/sites/default/files/doc/GNM_2020-23.pdf" title="" class="sf-depth-3">2020-23</a></li></ul></li><li id="menu-1739-1" class="last odd sf-item-3 sf-depth-2 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href=" void(0);" title="" class="sf-depth-2 menuparent">B.SC.(NURSING)</a><ul><li id="menu-1745-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="http://www.nutancollegeofnursing.in/sites/default/files/doc/BSC_NURSING_2019-23.pdf" title="" class="sf-depth-3">2019-23</a></li><li id="menu-1746-1" class="last even sf-item-2 sf-depth-3 sf-no-children"><a href="http://www.nutancollegeofnursing.in/sites/default/files/doc/BSC_NURSING_2020-24.pdf" title="" class="sf-depth-3">2020-24</a></li></ul></li></ul></li><li id="menu-1747-1" class="middle odd sf-item-5 sf-depth-1 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href=" void(0);" title="" class="sf-depth-1 menuparent">FACULTIES</a><ul><li id="menu-1748-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href=" void(0);" title="" class="sf-depth-2">ANM</a></li><li id="menu-1750-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href=" void(0);" title="" class="sf-depth-2">B.SC.(NURSING)</a></li><li id="menu-1749-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href=" void(0);" title="" class="sf-depth-2">GNM</a></li><li id="menu-1755-1" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href=" void(0);" title="" class="sf-depth-2">NON-TEACHING STAFF</a></li></ul></li><li id="menu-1751-1" class="middle even sf-item-6 sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href=" void(0);" title="" class="sf-depth-1 menuparent">RESULT</a><ul><li id="menu-1752-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href=" void(0);" title="" class="sf-depth-2">ANM</a></li><li id="menu-1754-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href=" void(0);" title="" class="sf-depth-2">B.SC.(NURSING)</a></li><li id="menu-1753-1" class="last odd sf-item-3 sf-depth-2 sf-no-children"><a href=" void(0);" title="" class="sf-depth-2">GNM</a></li></ul></li><li id="menu-922-1" class="middle odd sf-item-7 sf-depth-1 sf-no-children"><a href="/galleries" title="" class="sf-depth-1">Gallery</a></li><li id="menu-492-1" class="middle even sf-item-8 sf-depth-1 sf-no-children"><a href="/contact-us" class="sf-depth-1">CONTACT US</a></li><li id="menu-1734-1" class="last odd sf-item-9 sf-depth-1 sf-no-children"><a href="/bonafide-certificate" title="" class="sf-depth-1">Bonafide Certificate</a></li></ul>
+</section>
+  </div>
+</nav>
+    </div>
+</div>
+</div>
+<div id="main_div">
+    <div class="main-container container">
+        <div class="row">
+                        <section class="col-sm-12">
+                                <a id="main-content"></a>
+                                <h1 class="page-header">Page not found</h1>
+                                                                                <div class="alert alert-block alert-dismissible alert-warning messages warning">
+  <a class="close" data-dismiss="alert" href="#">&times;</a>
+<h4 class="element-invisible">Warning message</h4>
+Mean Menu style requires <a href="http://jquery.com">jQuery</a> library version 1.7 or higher, but you have opted to provide your own library.  Please ensure you have the proper version of jQuery included.  (note: this is not an error)</div>
+                  <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  The requested page "/sites/default/files/PSYSEMINAR%20MDDM.pdf" could not be found.
+</section>
+  </div>
+ </section>
+                    </div>
+    </div>
+</div>
+
+<div id="whole_map_area">
+    <div id="map_area">
+        <div id="map"></div>
+    </div>
+</div>
+
+<div id="whole_footer_top_area">
+    <div id="footer_top_area">
+        <div id="footer_top" class="container">  <div class="region region-footer-top">
+    <section id="block-block-1" class="block block-block clearfix">
+
+        <h2 class="block-title">Contacts us</h2>
+    
+  <table>
+<tbody>
+<tr>
+<td colspan="2">Nutan College Of Nursing<br /> CITY OFFICE /  ADMINISTRATIVE OFFICE<br />MAHANT PALACE , INFRONT OF SAI MANDIR,SHANKAR CHOWK,<br /> DUMRA ,SITAMARHI</td>
+</tr>
+<tr>
+<td valign="top">Phone :</td>
+<td>7369009851, 7369009858, 9199695110</td>
+</tr>
+<tr>
+<td valign="top">Email :</td>
+<td><a href="mailto:nutancollegeofnursing@gmail.com">nutancollegeofnursing@gmail.com</a></td>
+</tr>
+<tr>
+<td>Website:</td>
+<td><a href="http://www.nutancollegeofnursing.in">www.nutancollegeofnursing.in</a></td>
+</tr>
+</tbody>
+</table>
+
+</section>
+<section id="block-fb-likebox-0" class="block block-fb-likebox clearfix">
+
+        <h2 class="block-title">SOCIAL CONNECT</h2>
+    
+  <div class="fb-page" data-href="https://www.facebook.com/Nutan-College-of-Nursing-278341626418417" data-width="340" data-height="225" data-tabs="timeline" data-hide-cover="0" data-show-facepile="1" data-hide-cta="0" data-small-header="1" data-adapt-container-width="1"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Nutan-College-of-Nursing-278341626418417"><a href="https://www.facebook.com/Nutan-College-of-Nursing-278341626418417">Like us on Facebook</a></blockquote></div></div>
+</section>
+  </div>
+</div>
+    </div>
+</div>
+<div id="footer_bottom_area">
+	<div id="footer_bottom" class="container">  <div class="region region-footer-bottom">
+    <section id="block-block-2" class="block block-block clearfix">
+
+      
+  <div>Copyright @ 2019 Nutan College Of Nursing | <a href="mailto:nutancollegeofnursing@gmail.com">nutancollegeofnursing@gmail.com</a></div>
+
+</section>
+<section id="block-block-3" class="block block-block clearfix">
+
+      
+  <div>Design &amp; Developed by: <a href="mailto:developer.rajan2@gmail.com">Rajan</a></div>
+
+</section>
+  </div>
+</div>
+</div>  <script src="http://nutancollegeofnursing-7.local.com/sites/all/modules/addthis/addthis.js?rpri9e"></script>
+<script src="http://nutancollegeofnursing-7.local.com/sites/all/themes/bootstrap/js/bootstrap.js?rpri9e"></script>
+</body>
+</html>

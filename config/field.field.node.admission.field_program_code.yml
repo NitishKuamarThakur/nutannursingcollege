@@ -1,0 +1,26 @@
+uuid: 1950eb5f-cbf2-44f6-b8d8-a5ed441a0762
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_program_code
+    - node.type.admission
+    - taxonomy.vocabulary.program_code
+id: node.admission.field_program_code
+field_name: field_program_code
+entity_type: node
+bundle: admission
+label: Course
+description: "<p><strong>ANM ELIGIBILITY CRITERIA</strong></p>\r\n<ol>\r\n  <li>The minimum educational requirement shall be the passing of 12 Years of schooling (10+2) Year course recognized by CBSE/ICSE/SSSCE/HSCE or a recognized equivalent examination minimum age for admissions.<li>\r\n  <li>Minimum and maximum age for admission will be 17 and 35 years.<li>\r\n</ol>\r\n<p><strong>GNM ELIGIBILITY CRITERIA</strong></p>\r\n\r\n<ol>\r\n   <li>The minimum education (10+2)class passed preferably Science (PCB) & English with aggregated of 40% marks.</li>\r\n   <li>10+2 in Arts ( Mathematics, Biotechnology, Economics, Political Science, History, Geography, Business Studies, Accountancy, Home Science, Sociology, Psychology , Philosophy  and  English  Core/ English  Elective or Health care Science- Vocational stream  Only, passing out from recognized board under. AISSCE/CBSE/ICSE/SSCE/HSCE/or other equivalent board with 40% marks.</li>\r\n   <li>Minimum and maximum age for admission will be 17 and 35 years.</li>\r\n</ol>"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      program_code: program_code
+    sort:
+      field: _none
+field_type: entity_reference

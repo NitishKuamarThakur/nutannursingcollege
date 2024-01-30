@@ -1,0 +1,19 @@
+uuid: 086618df-3a86-495f-a9d1-8aef72c857b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_roll_number_
+    - node.type.bonafide_certificate
+id: node.bonafide_certificate.field_roll_number_
+field_name: field_roll_number_
+entity_type: node
+bundle: bonafide_certificate
+label: 'Roll Number '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

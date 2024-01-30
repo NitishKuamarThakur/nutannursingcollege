@@ -1,0 +1,145 @@
+uuid: b31fec36-154c-4c98-bea0-2acbeea9e2d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bonafide_certificate.field_bonafide_certificate
+    - field.field.node.bonafide_certificate.field_certificate_reference_date
+    - field.field.node.bonafide_certificate.field_certificate_reference_no_
+    - field.field.node.bonafide_certificate.field_course_
+    - field.field.node.bonafide_certificate.field_father_s_name_
+    - field.field.node.bonafide_certificate.field_image_
+    - field.field.node.bonafide_certificate.field_mobile_number_
+    - field.field.node.bonafide_certificate.field_roll_number_
+    - field.field.node.bonafide_certificate.field_session_
+    - image.style.thumbnail
+    - node.type.bonafide_certificate
+  module:
+    - datetime
+    - file
+    - image
+    - path
+id: node.bonafide_certificate.default
+targetEntityType: node
+bundle: bonafide_certificate
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bonafide_certificate:
+    type: file_generic
+    weight: 11
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_certificate_reference_date:
+    type: datetime_default
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_certificate_reference_no_:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_course_:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_father_s_name_:
+    type: string_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_image_:
+    type: image_image
+    weight: 10
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_mobile_number_:
+    type: string_textfield
+    weight: 9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_roll_number_:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_session_:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

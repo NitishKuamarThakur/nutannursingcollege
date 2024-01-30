@@ -1,0 +1,25 @@
+uuid: 0f500a45-491b-47f0-b7bc-7d299a9867ca
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - rlsy
+id: rlsy_user_login
+theme: rlsy
+region: ''
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Faculty Login'
+  label_display: visible
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

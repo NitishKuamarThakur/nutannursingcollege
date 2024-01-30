@@ -1,0 +1,33 @@
+uuid: 583caabd-17a9-40cd-ac7a-cc83733bb604
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_student_signature
+    - node.type.students
+  module:
+    - image
+id: node.students.field_student_signature
+field_name: field_student_signature
+entity_type: node
+bundle: students
+label: 'Student Signature'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: signature
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '1 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image: 0
+field_type: image

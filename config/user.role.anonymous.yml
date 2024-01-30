@@ -1,0 +1,27 @@
+uuid: eaa78660-da20-4bbe-9159-c00f00d3ad09
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+  module:
+    - comment
+    - filter
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access newsletter statistics'
+  - 'post comments'
+  - 'subscribe newsletters'
+  - 'use custom search'
+  - 'use custom search blocks'
+  - 'use text format filtered_html'
+  - 'view field_roll_number'
+  - 'view own field_roll_number'

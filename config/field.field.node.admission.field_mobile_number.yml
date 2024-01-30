@@ -1,0 +1,19 @@
+uuid: cedb6527-c55d-478c-b50c-5242210328fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mobile_number
+    - node.type.admission
+id: node.admission.field_mobile_number
+field_name: field_mobile_number
+entity_type: node
+bundle: admission
+label: 'Mobile Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

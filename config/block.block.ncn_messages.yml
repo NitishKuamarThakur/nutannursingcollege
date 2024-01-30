@@ -1,0 +1,22 @@
+uuid: 9675221d-3c7b-41cc-8bbe-570dd61d67f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ncn
+_core:
+  default_config_hash: 2PG0GSwg0FP7hS7OvyPQJ9o5mt43FSh027Rx2uste6Q
+id: ncn_messages
+theme: ncn
+region: content
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

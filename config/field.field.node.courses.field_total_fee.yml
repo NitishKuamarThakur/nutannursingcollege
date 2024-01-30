@@ -1,0 +1,23 @@
+uuid: 7f83643a-a0a3-4755-9e76-bed4f2392dbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_fee
+    - node.type.courses
+id: node.courses.field_total_fee
+field_name: field_total_fee
+entity_type: node
+bundle: courses
+label: 'Total Fee'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,25 @@
+uuid: 610d608d-1197-4068-8e1e-48b287d3caf9
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:e6f6f927-1e5f-4d91-bc55-af1ba64f74ef'
+  module:
+    - block_content
+  theme:
+    - lntcollege
+id: lntcollege_block_4
+theme: lntcollege
+region: ''
+weight: -24
+provider: null
+plugin: 'block_content:e6f6f927-1e5f-4d91-bc55-af1ba64f74ef'
+settings:
+  id: 'block_content:e6f6f927-1e5f-4d91-bc55-af1ba64f74ef'
+  label: 'Contact Us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

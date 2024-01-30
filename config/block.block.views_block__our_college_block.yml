@@ -1,0 +1,29 @@
+uuid: 3e17cbde-1630-4db8-8acd-2e91dbfb3ac5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_college
+  module:
+    - system
+    - views
+  theme:
+    - ncn
+id: views_block__our_college_block
+theme: ncn
+region: content
+weight: 1
+provider: null
+plugin: 'views_block:our_college-block'
+settings:
+  id: 'views_block:our_college-block'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

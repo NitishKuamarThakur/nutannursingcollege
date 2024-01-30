@@ -1,0 +1,25 @@
+uuid: 57017812-ead4-46a6-b76e-6abe9c5d24b6
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:7a95e014-3d0a-4325-a23d-bd2485fa29d2'
+  module:
+    - block_content
+  theme:
+    - mpssc
+id: mpssc_block_1
+theme: mpssc
+region: ''
+weight: -24
+provider: null
+plugin: 'block_content:7a95e014-3d0a-4325-a23d-bd2485fa29d2'
+settings:
+  id: 'block_content:7a95e014-3d0a-4325-a23d-bd2485fa29d2'
+  label: 'Contacts us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

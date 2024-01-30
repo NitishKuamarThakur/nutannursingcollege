@@ -1,0 +1,19 @@
+uuid: d9e53756-0673-414f-b1a3-fd595b3017ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_father_s_name_
+    - node.type.bonafide_certificate
+id: node.bonafide_certificate.field_father_s_name_
+field_name: field_father_s_name_
+entity_type: node
+bundle: bonafide_certificate
+label: 'Father''s Name '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,15 @@
+uuid: 6191ae81-cc4b-41e2-9cbe-21c3bdf68ed6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.students
+  module:
+    - node
+id: student
+label: student
+weight: 4
+is_admin: null
+permissions:
+  - 'create addmission content'
+  - 'create students content'

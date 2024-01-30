@@ -1,0 +1,25 @@
+uuid: 154761c7-43fb-460b-9903-04bed76b26cc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:059abd2b-385f-4e1a-ba42-bf3e59278f85'
+  module:
+    - block_content
+  theme:
+    - ncn
+id: mddm_block_27
+theme: ncn
+region: we_help
+weight: 0
+provider: null
+plugin: 'block_content:059abd2b-385f-4e1a-ba42-bf3e59278f85'
+settings:
+  id: 'block_content:059abd2b-385f-4e1a-ba42-bf3e59278f85'
+  label: 'We will help'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

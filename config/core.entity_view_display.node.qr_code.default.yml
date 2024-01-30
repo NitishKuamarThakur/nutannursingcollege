@@ -1,0 +1,20 @@
+uuid: b8fd811a-871d-4814-a3cb-d6c1b6ec1b28
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.qr_code
+  module:
+    - user
+id: node.qr_code.default
+targetEntityType: node
+bundle: qr_code
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true

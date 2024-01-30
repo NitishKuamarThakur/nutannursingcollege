@@ -1,0 +1,14 @@
+uuid: e9558c8c-2ef4-4369-94f3-6d013765163e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.alumni
+  module:
+    - user
+id: user_add_role_action.alumni
+label: 'Add the Alumni role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: alumni

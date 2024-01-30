@@ -1,0 +1,19 @@
+uuid: d92b7c10-8807-46e0-bdb5-07bcc98405ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qualification
+    - node.type.faculty_member
+id: node.faculty_member.field_qualification
+field_name: field_qualification
+entity_type: node
+bundle: faculty_member
+label: Qualification
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

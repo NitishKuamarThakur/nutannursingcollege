@@ -1,0 +1,31 @@
+uuid: dcf4e51f-a4cd-456c-a4d6-92fc076c19c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+  module:
+    - comment
+    - commerce_checkout
+    - filter
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access commerce_instamojo page'
+  - 'access content'
+  - 'access newsletter statistics'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'subscribe newsletters'
+  - 'use custom search'
+  - 'use custom search blocks'
+  - 'use text format filtered_html'
+  - 'view field_roll_number'
+  - 'view own field_roll_number'

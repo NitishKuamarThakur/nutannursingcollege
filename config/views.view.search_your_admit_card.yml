@@ -1,0 +1,334 @@
+uuid: a85d11b8-1d19-4065-86d4-9c41a8be9fa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_of_birth
+    - field.storage.node.field_father_s_name
+    - field.storage.node.field_roll_number
+    - node.type.students
+  module:
+    - datetime
+    - node
+    - user
+id: search_your_admit_card
+label: 'Search Your Admit card'
+module: views
+description: ''
+tag: default
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    id: default
+    display_title: Master
+    display_plugin: default
+    position: 1
+    display_options:
+      title: 'Search Your Admit card'
+      fields:
+        counter:
+          id: counter
+          table: views
+          field: counter
+          plugin_id: counter
+          label: 'Sl No.'
+          element_label_colon: false
+          counter_start: 1
+          reverse: 0
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          plugin_id: field
+          exclude: true
+          element_label_colon: false
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          plugin_id: field
+          label: Name
+          alter:
+            word_boundary: false
+            ellipsis: false
+          element_label_colon: false
+          settings:
+            link_to_entity: false
+        field_father_s_name:
+          id: field_father_s_name
+          table: node__field_father_s_name
+          field: field_father_s_name
+          plugin_id: field
+          element_label_colon: false
+        field_roll_number:
+          id: field_roll_number
+          table: node__field_roll_number
+          field: field_roll_number
+          plugin_id: field
+          label: 'Application Form No.'
+          element_label_colon: false
+        field_date_of_birth:
+          id: field_date_of_birth
+          table: node__field_date_of_birth
+          field: field_date_of_birth
+          plugin_id: field
+          exclude: true
+          element_label_colon: false
+          settings:
+            format_type: short
+            fromto: both
+            multiple_number: ''
+            multiple_from: ''
+            multiple_to: ''
+            show_repeat_rule: show
+      pager:
+        type: some
+        options:
+          offset: 0
+          items_per_page: 20
+      exposed_form:
+        type: input_required
+        options:
+          submit_button: SEARCH
+          text_input_required: "Enter your name, father's name and Date of Birth then you will found admit card.\r\n<h3><a href=\"http://onlinebrabu.in/download-admit-card\">Go Back</a></h3>"
+          text_input_required_format: full_html
+      access:
+        type: perm
+      cache:
+        type: none
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          empty: true
+          content:
+            value: "Sorry, No result found.\r\n\r\nPlease Double Check your Name, Father's Name and Date of birth.\r\n<h3><a href=\"/download-admit-card\">Go Back</a></h3>\r\n"
+            format: full_html
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          plugin_id: date
+          order: DESC
+          expose:
+            field_identifier: created
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            remember_roles: {  }
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          relationship: none
+          group_type: group
+          plugin_id: bundle
+          operator: in
+          value:
+            students: students
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+            operator_label: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          ui_name: ''
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          plugin_id: string
+          operator: word
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: title_op
+            label: Name
+            description: 'Enter your full name.'
+            use_operator: false
+            operator: title_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: title
+            required: true
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: anonymous
+              administrator: administrator
+              alumni: alumni
+              student: student
+              college_admin: college_admin
+            operator_label: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          ui_name: ''
+        field_father_s_name_value:
+          id: field_father_s_name_value
+          table: node__field_father_s_name
+          field: field_father_s_name_value
+          plugin_id: string
+          operator: word
+          exposed: true
+          expose:
+            operator_id: field_father_s_name_value_op
+            label: 'Father''s Name'
+            operator: field_father_s_name_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_father_s_name_value
+            remember_roles:
+              authenticated: authenticated
+              anonymous: anonymous
+              administrator: administrator
+              alumni: alumni
+              student: student
+              college_admin: college_admin
+        field_date_of_birth_value:
+          id: field_date_of_birth_value
+          table: node__field_date_of_birth
+          field: field_date_of_birth_value
+          relationship: none
+          group_type: group
+          plugin_id: datetime
+          operator: '='
+          value:
+            min: ''
+            max: ''
+            value: ''
+            type: date
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_date_of_birth_value_op
+            label: 'Date of Birth'
+            description: ''
+            use_operator: false
+            operator: field_date_of_birth_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_date_of_birth_value
+            required: true
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: anonymous
+              administrator: administrator
+              alumni: alumni
+              student: student
+              college_admin: college_admin
+            operator_label: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          ui_name: ''
+          granularity: day
+          form_type: date_select
+          default_date: ''
+          default_to_date: ''
+          year_range: '1950:2005'
+          add_delta: ''
+      style:
+        type: table
+      query:
+        type: views_query
+        options: {  }
+      use_more_always: false
+      display_extenders: {  }
+      style_plugin: table
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_date_of_birth'
+        - 'config:field.storage.node.field_father_s_name'
+        - 'config:field.storage.node.field_roll_number'
+  page_1:
+    id: page_1
+    display_title: Page
+    display_plugin: page
+    position: 2
+    display_options:
+      query:
+        type: views_query
+        options: {  }
+      exposed_block: true
+      display_extenders: {  }
+      path: search-admit-card
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_date_of_birth'
+        - 'config:field.storage.node.field_father_s_name'
+        - 'config:field.storage.node.field_roll_number'

@@ -1,0 +1,19 @@
+uuid: 29adfc54-7b18-497d-b89f-3696b17f6e9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_present_correspondence_add
+    - node.type.students
+id: node.students.field_present_correspondence_add
+field_name: field_present_correspondence_add
+entity_type: node
+bundle: students
+label: 'Present/Correspondence Address'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

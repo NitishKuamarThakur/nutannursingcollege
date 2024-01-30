@@ -1,0 +1,14 @@
+uuid: d22641ce-485f-4cca-b9b0-d05854f76aa9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.college_admin
+  module:
+    - user
+id: user_remove_role_action.college_admin
+label: 'Remove the college admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: college_admin

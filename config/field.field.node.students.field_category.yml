@@ -1,0 +1,21 @@
+uuid: 132f4fe2-2e4a-410b-b93a-5cf333008fbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.students
+  module:
+    - options
+id: node.students.field_category
+field_name: field_category
+entity_type: node
+bundle: students
+label: Category
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

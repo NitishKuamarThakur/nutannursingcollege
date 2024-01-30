@@ -1,0 +1,19 @@
+uuid: 381bdcf1-b8b1-4249-a840-ae9ec67e308f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year_of_passing_grad
+    - node.type.students
+id: node.students.field_year_of_passing_grad
+field_name: field_year_of_passing_grad
+entity_type: node
+bundle: students
+label: 'Year of Passing'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

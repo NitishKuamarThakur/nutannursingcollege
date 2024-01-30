@@ -1,0 +1,15 @@
+uuid: 8b2d4313-7220-4ab7-832d-79debe7835da
+langcode: en
+status: true
+dependencies: {  }
+name: gallery_slideshow
+label: 'Gallery slideshow'
+effects:
+  6c21a7c7-340c-43ad-8af1-efd29f2452ff:
+    uuid: 6c21a7c7-340c-43ad-8af1-efd29f2452ff
+    id: image_scale
+    weight: 1
+    data:
+      width: 1140
+      height: null
+      upscale: true

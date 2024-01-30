@@ -1,0 +1,26 @@
+uuid: dec44d8e-d999-4ed1-b3ca-1f968bc45a87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_course_
+    - node.type.bonafide_certificate
+    - taxonomy.vocabulary.program_code
+id: node.bonafide_certificate.field_course_
+field_name: field_course_
+entity_type: node
+bundle: bonafide_certificate
+label: 'Course '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      program_code: program_code
+    sort:
+      field: _none
+field_type: entity_reference

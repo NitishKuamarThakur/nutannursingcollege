@@ -1,0 +1,27 @@
+uuid: a699b251-d102-429c-b14c-9cb3556a25cf
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ncn
+_core:
+  default_config_hash: gyh6km7Fol2HFHIuU13liZQ4LtDdIRrM0-5Oqllwt8E
+id: ncn_main_navigation
+theme: ncn
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

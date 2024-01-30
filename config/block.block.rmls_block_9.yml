@@ -1,0 +1,30 @@
+uuid: 455027ea-af89-4b65-9acf-4a07835dc2b8
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:52de8ab7-edfe-4fa4-8322-208090c38b5a'
+  module:
+    - block_content
+    - system
+  theme:
+    - rmls
+id: rmls_block_9
+theme: rmls
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:52de8ab7-edfe-4fa4-8322-208090c38b5a'
+settings:
+  id: 'block_content:52de8ab7-edfe-4fa4-8322-208090c38b5a'
+  label: 'All Enquiries'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/2

@@ -1,0 +1,30 @@
+uuid: 0052e9d8-6132-4dd6-9f11-4eed39ee8eeb
+langcode: und
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - file
+    - image
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_aadhar
+field_name: field_aadhar
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: ''
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

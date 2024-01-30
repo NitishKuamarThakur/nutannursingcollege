@@ -1,0 +1,21 @@
+uuid: 11d0baa1-ff76-4dd7-872c-cc3aa4c4c1c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pm
+    - node.type.event
+  module:
+    - options
+id: node.event.field_pm
+field_name: field_pm
+entity_type: node
+bundle: event
+label: PM/AM
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

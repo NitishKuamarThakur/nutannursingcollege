@@ -1,0 +1,19 @@
+uuid: 829be46d-6ab6-4654-970b-75a6949e2488
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_roll_number
+    - node.type.students
+id: node.students.field_roll_number
+field_name: field_roll_number
+entity_type: node
+bundle: students
+label: 'Roll Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

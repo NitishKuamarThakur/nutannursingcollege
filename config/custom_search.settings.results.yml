@@ -1,0 +1,60 @@
+node_search:
+  path: node
+  search: true
+  advanced:
+    visibility: true
+    collapsible: true
+    collapsed: true
+    criteria:
+      or: or
+      phrase: phrase
+      negative: negative
+    types:
+      article: article
+      page: page
+      webform: webform
+      admission: admission
+      blog: blog
+      bonafide_certificate: bonafide_certificate
+      courses: courses
+      event: event
+      faculty_member: faculty_member
+      gallery: gallery
+      latest_news: latest_news
+      notice_board: notice_board
+      placement_cell: placement_cell
+      principal_message: principal_message
+      qr_code: qr_code
+      slideshow: slideshow
+      students: students
+    languages:
+      en: en
+      und: und
+      zxx: zxx
+  info:
+    type: type
+    user: user
+    date: date
+    comment: comment
+  filter:
+    position: disabled
+    label: 'Filter the results'
+    any: '- Any -'
+user_search:
+  advanced:
+    types:
+      webform: webform
+      admission: admission
+      blog: blog
+      bonafide_certificate: bonafide_certificate
+      courses: courses
+      event: event
+      faculty_member: faculty_member
+      gallery: gallery
+      latest_news: latest_news
+      notice_board: notice_board
+      placement_cell: placement_cell
+      principal_message: principal_message
+      qr_code: qr_code
+      slideshow: slideshow
+      students: students

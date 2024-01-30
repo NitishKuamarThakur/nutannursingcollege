@@ -1,0 +1,18 @@
+uuid: be368d81-09f9-4f72-be9e-60480ddb6d34
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bonafide_certificate
+id: node.bonafide_certificate.title
+field_name: title
+entity_type: node
+bundle: bonafide_certificate
+label: 'Student Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

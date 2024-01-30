@@ -1,0 +1,25 @@
+uuid: 33799d96-9c8d-4481-beb4-bdff4a957835
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:b0f67661-6403-4698-be4a-666815ca1c3a'
+  module:
+    - block_content
+  theme:
+    - rlsy
+id: rlsy_block_10
+theme: rlsy
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:b0f67661-6403-4698-be4a-666815ca1c3a'
+settings:
+  id: 'block_content:b0f67661-6403-4698-be4a-666815ca1c3a'
+  label: '<none>'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

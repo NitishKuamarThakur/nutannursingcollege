@@ -1,0 +1,22 @@
+uuid: dee0483b-8c28-4ecc-a112-4dba313d8a29
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ncn
+_core:
+  default_config_hash: sPadSpTuWVTyRR16h2rp26depScjsjFT5E4AMWpp79g
+id: ncn_local_tasks
+theme: ncn
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

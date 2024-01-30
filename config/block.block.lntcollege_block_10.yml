@@ -1,0 +1,25 @@
+uuid: d8896160-878a-447d-83a9-d480cf152ef3
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:b0f67661-6403-4698-be4a-666815ca1c3a'
+  module:
+    - block_content
+  theme:
+    - lntcollege
+id: lntcollege_block_10
+theme: lntcollege
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:b0f67661-6403-4698-be4a-666815ca1c3a'
+settings:
+  id: 'block_content:b0f67661-6403-4698-be4a-666815ca1c3a'
+  label: '<none>'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

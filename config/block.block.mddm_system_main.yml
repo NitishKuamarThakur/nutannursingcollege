@@ -1,0 +1,22 @@
+uuid: bc6bbaf6-c5be-4413-bbe7-5cde9ed5c470
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ncn
+_core:
+  default_config_hash: lmABqrW4Mx5VpvxRYZbjphTJ1xQJWb4oNy-LKL0QyDk
+id: mddm_system_main
+theme: ncn
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

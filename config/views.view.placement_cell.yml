@@ -1,0 +1,287 @@
+uuid: 5fd5e799-ac42-4a68-b6d2-d6557d444020
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_logo
+    - field.storage.node.field_url_link
+    - image.style.thumbnail
+    - node.type.placement_cell
+  module:
+    - image
+    - jcarousel
+    - node
+    - text
+    - user
+id: placement_cell
+label: 'Placement Cell'
+module: views
+description: ''
+tag: default
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    id: default
+    display_title: Master
+    display_plugin: default
+    position: 1
+    display_options:
+      title: 'Placement Cell'
+      fields:
+        field_url_link:
+          id: field_url_link
+          table: node__field_url_link
+          field: field_url_link
+          relationship: none
+          group_type: group
+          plugin_id: field
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: null
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          ui_name: ''
+        field_company_logo:
+          id: field_company_logo
+          table: node__field_company_logo
+          field: field_company_logo
+          relationship: none
+          group_type: group
+          plugin_id: field
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: '<a href="{{ field_url_link }}" target="_blank">{{ field_company_logo }}</a>'
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: null
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: fid
+          type: image
+          settings:
+            image_link: ''
+            image_style: thumbnail
+            image_loading:
+              attribute: lazy
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          ui_name: ''
+      pager:
+        type: none
+        options:
+          items_per_page: null
+      exposed_form:
+        type: basic
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+        perm: 'access content'
+      cache:
+        type: none
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          plugin_id: date
+          order: DESC
+          expose:
+            field_identifier: created
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            remember_roles: {  }
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          plugin_id: bundle
+          value:
+            placement_cell: placement_cell
+          expose:
+            operator_limit_selection: false
+            operator_list: {  }
+      style:
+        type: jcarousel
+        options:
+          wrap: circular
+          skin: tango
+          visible: '6'
+          scroll: '1'
+          auto: '0'
+          navigation: ''
+          ajax: 0
+          animation: ''
+          easing: ''
+          start: '1'
+          autoPause: 0
+          vertical: 0
+      row:
+        type: fields
+      query:
+        type: views_query
+        options: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          label: ''
+          empty: false
+          ui_name: ''
+          content:
+            value: '<?php print l(''Placement Enquriy'',''placement'');?>'
+            format: php_code
+          tokenize: 0
+      footer: {  }
+      display_extenders: {  }
+      style_plugin: jcarousel
+      style_options:
+        wrap: circular
+        skin: tango
+        visible: '6'
+        scroll: '1'
+        auto: '0'
+        navigation: ''
+        ajax: 0
+        animation: ''
+        easing: ''
+        start: '1'
+        autoPause: 0
+        vertical: 0
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_company_logo'
+        - 'config:field.storage.node.field_url_link'
+  block:
+    id: block
+    display_title: Block
+    display_plugin: block
+    position: 2
+    display_options:
+      query:
+        type: views_query
+        options: {  }
+      display_extenders: {  }
+      field:
+        title:
+          link_to_node: 1
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_company_logo'
+        - 'config:field.storage.node.field_url_link'

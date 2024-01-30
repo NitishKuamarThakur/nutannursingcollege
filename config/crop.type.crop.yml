@@ -1,0 +1,12 @@
+uuid: 9106e664-f969-4887-bf59-f94f8d236e7f
+langcode: en
+status: true
+dependencies: {  }
+label: Crop
+id: crop
+description: ''
+aspect_ratio: ''
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: 250
+hard_limit_height: 300

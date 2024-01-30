@@ -1,0 +1,18 @@
+uuid: 90eea45d-4f70-4925-9b75-e0f3beca3afb
+langcode: en
+status: false
+dependencies:
+  theme:
+    - rmls
+id: rmls_menu_menu_footer_menu
+theme: rmls
+region: ''
+weight: -19
+provider: null
+plugin: 'system_menu_block:menu-footer-menu'
+settings:
+  id: broken
+  label: 'Quick Links'
+  label_display: visible
+  provider: core
+visibility: {  }

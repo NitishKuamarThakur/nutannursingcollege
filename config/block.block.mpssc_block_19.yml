@@ -1,0 +1,30 @@
+uuid: 5e20e618-97eb-48a5-ab9e-c310368370d3
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:8809fa1b-5253-4726-a408-c71bb34cc61e'
+  module:
+    - block_content
+    - system
+  theme:
+    - mpssc
+id: mpssc_block_19
+theme: mpssc
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:8809fa1b-5253-4726-a408-c71bb34cc61e'
+settings:
+  id: 'block_content:8809fa1b-5253-4726-a408-c71bb34cc61e'
+  label: '<none>'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

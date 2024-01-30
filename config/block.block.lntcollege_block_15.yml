@@ -1,0 +1,30 @@
+uuid: cfe95685-6f6f-4a7b-b2aa-f1c52520ee21
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:e4652a5c-c75d-4c53-95bf-0564148b4e8a'
+  module:
+    - block_content
+    - system
+  theme:
+    - lntcollege
+id: lntcollege_block_15
+theme: lntcollege
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:e4652a5c-c75d-4c53-95bf-0564148b4e8a'
+settings:
+  id: 'block_content:e4652a5c-c75d-4c53-95bf-0564148b4e8a'
+  label: 'Our VISION'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

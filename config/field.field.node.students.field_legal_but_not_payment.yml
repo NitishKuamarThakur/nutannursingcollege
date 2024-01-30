@@ -1,0 +1,21 @@
+uuid: 486f0aac-6f9e-4faa-bfe5-6533b6e0ba76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_legal_but_not_payment
+    - node.type.students
+  module:
+    - options
+id: node.students.field_legal_but_not_payment
+field_name: field_legal_but_not_payment
+entity_type: node
+bundle: students
+label: 'Legal but not payment'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

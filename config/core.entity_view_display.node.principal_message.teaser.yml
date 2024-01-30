@@ -1,0 +1,33 @@
+uuid: 05caa605-bfe9-42da-882b-a4baa1e6cb8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.principal_message.body
+    - field.field.node.principal_message.field_upload_image
+    - node.type.principal_message
+  module:
+    - text
+    - user
+id: node.principal_message.teaser
+targetEntityType: node
+bundle: principal_message
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_upload_image: true

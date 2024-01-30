@@ -1,0 +1,38 @@
+uuid: 7f877c33-e647-41ca-b363-fdf017d32420
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_classes
+    - fb_likebox
+  theme:
+    - ncn
+third_party_settings:
+  block_classes:
+    title_class: block-title
+id: fblikebox
+theme: ncn
+region: footer_col_3
+weight: 0
+provider: null
+plugin: fb_likebox_block
+settings:
+  id: fb_likebox_block
+  label: 'SOCIAL CONNECT'
+  label_display: visible
+  provider: fb_likebox
+  url: 'https://www.facebook.com/Nutan-College-of-Nursing-278341626418417'
+  app_id: ''
+  hide_header: 0
+  stream: 1
+  events: 0
+  messages: 0
+  show_faces: '1'
+  title: 'Like us on Facebook'
+  width: 340
+  height: 225
+  hide_cta: 0
+  small_header: 1
+  adapt_container_width: 1
+  language: en_EN
+visibility: {  }

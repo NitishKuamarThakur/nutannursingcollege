@@ -1,0 +1,25 @@
+uuid: 25e26d8b-5f39-43f3-bdde-e6809ffd7fa1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ncn
+_core:
+  default_config_hash: 49-r88SnKFdXYw996UVm37FaB4mkP7A5d-k3bYj6dqY
+id: ncn_branding
+theme: ncn
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

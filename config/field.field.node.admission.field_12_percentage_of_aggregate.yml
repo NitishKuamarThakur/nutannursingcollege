@@ -1,0 +1,19 @@
+uuid: c82037d2-64d6-4be2-a8c6-5d82031c3c87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_12_percentage_of_aggregate
+    - node.type.admission
+id: node.admission.field_12_percentage_of_aggregate
+field_name: field_12_percentage_of_aggregate
+entity_type: node
+bundle: admission
+label: 'Percentage of aggregate marks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

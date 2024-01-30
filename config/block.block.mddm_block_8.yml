@@ -1,0 +1,34 @@
+uuid: 30381992-bb88-4296-adce-8251b88a1da9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a2606b3b-ee25-41da-8c48-7dc91a554ab5'
+  module:
+    - block_classes
+    - block_content
+    - system
+  theme:
+    - ncn
+third_party_settings:
+  block_classes:
+    title_class: block-title
+id: mddm_block_8
+theme: ncn
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'block_content:a2606b3b-ee25-41da-8c48-7dc91a554ab5'
+settings:
+  id: 'block_content:a2606b3b-ee25-41da-8c48-7dc91a554ab5'
+  label: 'Contact Information'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/2

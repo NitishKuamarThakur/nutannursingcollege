@@ -1,0 +1,41 @@
+uuid: d9441688-99a7-48f6-8063-f054ad07a378
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1eccc522-f89f-49f9-b1da-30ff5abe1927'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - ncn
+id: mddm_block_25
+theme: ncn
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:1eccc522-f89f-49f9-b1da-30ff5abe1927'
+settings:
+  id: 'block_content:1eccc522-f89f-49f9-b1da-30ff5abe1927'
+  label: '<none>'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      alumni: alumni
+      student: student
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/user/*'

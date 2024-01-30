@@ -1,0 +1,60 @@
+uuid: a32cd73f-d880-4e67-ad76-400bfe4454e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+    - filter.format.full_html
+    - node.type.admission
+    - node.type.bonafide_certificate
+    - node.type.gallery
+    - node.type.latest_news
+    - node.type.notice_board
+    - node.type.page
+    - node.type.qr_code
+    - node.type.slideshow
+  module:
+    - field_permissions
+    - filter
+    - node
+    - system
+id: college_admin
+label: 'college admin'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration menu'
+  - 'access administration pages'
+  - 'create addmission content'
+  - 'create admission content'
+  - 'create bonafide_certificate content'
+  - 'create field_qr_code_text'
+  - 'create gallery content'
+  - 'create latest_news content'
+  - 'create notice_board content'
+  - 'create page content'
+  - 'create qr_code content'
+  - 'create slideshow content'
+  - 'delete any bonafide_certificate content'
+  - 'delete own bonafide_certificate content'
+  - 'edit any bonafide_certificate content'
+  - 'edit any gallery content'
+  - 'edit any latest_news content'
+  - 'edit any notice_board content'
+  - 'edit any page content'
+  - 'edit any qr_code content'
+  - 'edit any slideshow content'
+  - 'edit field_qr_code_text'
+  - 'edit own bonafide_certificate content'
+  - 'edit own field_qr_code_text'
+  - 'edit own gallery content'
+  - 'edit own notice_board content'
+  - 'edit own page content'
+  - 'edit own qr_code content'
+  - 'edit own slideshow content'
+  - 'use text format filtered_html'
+  - 'use text format full_html'
+  - 'view field_payment_received'
+  - 'view field_qr_code_text'
+  - 'view own field_payment_received'
+  - 'view own field_qr_code_text'

@@ -1,0 +1,28 @@
+uuid: e7d7af2d-128d-44aa-aa8a-f87c7e6a19e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_program_code
+    - node.type.students
+    - taxonomy.vocabulary.program_code
+id: node.students.field_program_code
+field_name: field_program_code
+entity_type: node
+bundle: students
+label: 'Course applied for'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    tid: '3'
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      program_code: program_code
+    sort:
+      field: _none
+field_type: entity_reference

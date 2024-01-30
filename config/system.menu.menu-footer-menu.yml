@@ -1,0 +1,8 @@
+uuid: 9690dd58-e9ab-4a3e-abc0-c10ceb252d01
+langcode: en
+status: true
+dependencies: {  }
+id: menu-footer-menu
+label: 'Quick Links'
+description: ''
+locked: false

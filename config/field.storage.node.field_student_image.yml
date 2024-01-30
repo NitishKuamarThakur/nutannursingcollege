@@ -1,0 +1,30 @@
+uuid: 7ef05c13-ad00-454b-9834-2ccba4e0df54
+langcode: und
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - file
+    - image
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_student_image
+field_name: field_student_image
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: ''
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

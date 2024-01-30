@@ -1,0 +1,25 @@
+uuid: 469a9fe6-e9bc-4b1b-9f83-6536767f8bdd
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d6d557fb-3fd9-4823-9d79-310b90917edf'
+  module:
+    - block_content
+  theme:
+    - lntcollege
+id: lntcollege_block_13
+theme: lntcollege
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:d6d557fb-3fd9-4823-9d79-310b90917edf'
+settings:
+  id: 'block_content:d6d557fb-3fd9-4823-9d79-310b90917edf'
+  label: 'Find us by map'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

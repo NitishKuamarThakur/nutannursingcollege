@@ -1,0 +1,42 @@
+uuid: 147b0b58-5e2a-40e8-88ad-7eb2f5e837b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.placement_cell.field_company_logo
+    - field.field.node.placement_cell.field_url_link
+    - node.type.placement_cell
+  module:
+    - image
+    - user
+id: node.placement_cell.default
+targetEntityType: node
+bundle: placement_cell
+mode: default
+content:
+  field_company_logo:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_url_link:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true

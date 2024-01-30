@@ -1,0 +1,21 @@
+uuid: e279c841-d281-46cc-b542-95e127837f38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_certificate_reference_date
+    - node.type.bonafide_certificate
+  module:
+    - datetime
+id: node.bonafide_certificate.field_certificate_reference_date
+field_name: field_certificate_reference_date
+entity_type: node
+bundle: bonafide_certificate
+label: 'Date of Issue'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

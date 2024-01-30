@@ -1,0 +1,21 @@
+uuid: 355d502b-4cf2-4bcf-b0e9-6436912da831
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_gallery
+label: 'Content - Gallery'
+type: 'canonical_entities:node'
+pattern: 'gallery/[node:title]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      gallery: gallery
+selection_logic: and
+weight: 0
+relationships: {  }

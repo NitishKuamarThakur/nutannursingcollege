@@ -1,0 +1,21 @@
+uuid: 61b65d41-ffff-400f-9712-5880f3468d12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faculty
+    - node.type.students
+  module:
+    - options
+id: node.students.field_faculty
+field_name: field_faculty
+entity_type: node
+bundle: students
+label: '12th Stream'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
